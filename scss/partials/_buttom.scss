@@ -1,0 +1,39 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn.btn-outline-primary {
+    /* Estilos que deseas aplicar al botón */
+    background-color: #007bff00;
+    width: 15%;
+    color: #fff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .btn.btn-outline-primary:hover {
+    /* Estilos adicionales al pasar el mouse sobre el botón */
+    background-color: #ffffff;
+    color: #fff;
+    border-color: #0056b3;
+  }
+.btn-principal {
+    background-color: #4c56af; /* Color de fondo verde */
+    color: white; /* Texto en blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno interno */
+    text-align: center; /* Alinear el texto al centro */
+    text-decoration: none; /* Sin decoración de texto */
+    display: inline-block; /* Mostrar como elemento en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Márgenes superior e inferior de 4px, márgenes izquierdo y derecho de 2px */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: box-shadow 0.3s ease-in-out;
+    &:hover {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.381) /* Cambiar color de fondo al pasar sobre el botón */
+}
+}
